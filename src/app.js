@@ -5,7 +5,7 @@ const helmet = require('helmet');
 const compression = require('compression');
 const winston = require('winston');
 
-const indexRoute = require('./routes/index-route');
+const indexRoute = require('./routes/index.route');
 const authenticateRoute = require('./routes/authenticate.route');
 const usuarioRoute = require('./routes/usuario.route');
 
